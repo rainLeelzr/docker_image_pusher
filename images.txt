@@ -1,6 +1,41 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+postgis/postgis:12-3.4-alpine
+
+# base tool image
+#library/alpine:3.20.3
+#--platform=linux/arm64 library/alpine:3.20.3
+
+# suntekmap-gl-native
+#library/ubuntu:22.04
+#--platform=linux/arm64 library/ubuntu:22.04
+
+# docker 多架构镜像构建
+#tonistiigi/binfmt:latest
+#moby/buildkit:buildx-stable-1
+
+# argocd
+### v2.12.0
+#quay.io/argoproj/argocd:v2.12.0
+#ghcr.io/dexidp/dex:v2.38.0
+#library/redis:7.0.15-alpine
+### v2.12.2
+#quay.io/argoproj/argocd:v2.12.2
+
+# freeswitch
+#debian:bookworm
+#library/debian:bullseye
+#--platform=linux/arm64 library/debian:bullseye
+
+#mysql:8.4.0
+#redislabs/redisinsight:2.50
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
+#支持指定架构
+#--platform=linux/arm64 xiaoyaliu/alist
+##btpanel/baota:lib
+
+# nginx:1.27.0-alpine3.19
+# node:18.20.3-alpine3.20
+
+#node:20.15.1-alpine3.20
+
+# linuxserver/calibre-web:0.6.22

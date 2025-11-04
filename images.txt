@@ -1,4 +1,4 @@
-azul/zulu-openjdk-debian:8u472-jdk
+--platform=linux/arm64 azul/zulu-openjdk-debian:8u472-jdk
 
 # postgis/postgis:12-3.4-alpine
 

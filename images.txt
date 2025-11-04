@@ -1,4 +1,6 @@
-postgis/postgis:12-3.4-alpine
+azul/zulu-openjdk-debian:8u472
+
+# postgis/postgis:12-3.4-alpine
 
 
 # base tool image

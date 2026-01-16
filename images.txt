@@ -1,4 +1,6 @@
---platform=linux/arm64 azul/zulu-openjdk-debian:8u472-jdk
+nacos/nacos-server:2.0.3
+
+#--platform=linux/arm64 azul/zulu-openjdk-debian:8u472-jdk
 
 # postgis/postgis:12-3.4-alpine
 

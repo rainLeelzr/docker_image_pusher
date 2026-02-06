@@ -1,4 +1,6 @@
-cloudflare/cloudflared:2026.1.2
+easytier/easytier:v2.4.5
+
+#cloudflare/cloudflared:2026.1.2
 #nacos/nacos-server:2.0.3
 
 #--platform=linux/arm64 azul/zulu-openjdk-debian:8u472-jdk
